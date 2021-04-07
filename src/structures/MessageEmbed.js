@@ -53,7 +53,7 @@ class MessageEmbed {
      * The color of this embed
      * @type {?number}
      */
-    this.color = 'color' in data ? Util.resolveColor(data.color) : null;
+    this.color = 'color' in data ? Util.resolveColor(data.color) : 'BLURPLE';
 
     /**
      * The timestamp of this embed
